@@ -186,9 +186,9 @@ export default function App() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { name: "Laguna Humantay", meta: "Gold Member Extra", image: "/public/laguna-humantay.jpg" },
-              { name: "Three Monkeys Coffee", meta: "15% desc. en Café especial", image: "/public/three-monkeys-coffe.jpg" },
-              { name: "Morena Peruvian Kitchen", meta: "Pisco Sour de bienvenida", image: "/public/morena-peruvian-kitchen.jpg" },
+              { name: "Laguna Humantay", meta: "Gold Member Extra", image: "./laguna-humantay.jpg" },
+              { name: "Three Monkeys Coffee", meta: "15% desc. en Café especial", image: "./three-monkeys-coffe.jpg" },
+              { name: "Morena Peruvian Kitchen", meta: "Pisco Sour de bienvenida", image: "./morena-peruvian-kitchen.jpg" },
             ].map((loc, i) => (
               <div key={i} className="group relative aspect-[4/5] rounded-[2.5rem] overflow-hidden bg-slate-900 border border-white/5">
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0b] via-transparent to-transparent z-10" />
@@ -223,10 +223,10 @@ export default function App() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 items-center">
             {[
-              { img: "/public/screenshot_01.jpg", title: "Feed VIP" },
-              { img: "/public//screenshot_07.jpg", title: "Detail Card" },
-              { img: "/public//screenshot_08.jpg", title: "Merchant PIN" },
-              { img: "/public//screenshot_05.jpg", title: "Membresía" }
+              { img: "./screenshot_01.jpg", title: "Feed VIP" },
+              { img: "./screenshot_07.jpg", title: "Detail Card" },
+              { img: "./screenshot_08.jpg", title: "Merchant PIN" },
+              { img: "./screenshot_05.jpg", title: "Membresía" }
             ].map((shot, idx) => (
               <motion.div
                 key={idx}
