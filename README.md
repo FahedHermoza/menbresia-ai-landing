@@ -21,7 +21,7 @@ Landing page oficial de **MembresiaAI**, construida con React, TypeScript y Vite
 - **IA predictiva** — recomendaciones geolocalizadas basadas en ocupación y tendencias en tiempo real
 - **Planes de membresía** — Discovery Pass (S/9.90), Vibe Member (S/19.90) y Gold Select (S/49.90)
 
-**Stack tecnológico:** Kotlin Multiplatform · Firebase · OpenAI SDK · PostgreSQL
+**Stack tecnológico:** Kotlin Multiplatform · Firebase · AI Tools · PostgreSQL
 
 ---
 
