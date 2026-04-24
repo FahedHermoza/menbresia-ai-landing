@@ -2,19 +2,36 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# MembresiaAI — Landing Page
 
-This contains everything you need to run your app locally.
+Landing page oficial de **MembresiaAI**, construida con React, TypeScript y Vite.
 
-View your app in AI Studio: https://ai.studio/apps/1d083bb2-cf6a-4b45-b08c-03ab95ec6b60
+> Este repositorio contiene únicamente el sitio de presentación del producto. El MVP de la aplicación móvil se encuentra en → [FahedHermoza/MVP-Menbresia-AI](https://github.com/FahedHermoza/MVP-Menbresia-AI)
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## Sobre el Producto
 
+**MembresiaAI** es una plataforma de membresías inteligentes para el Cusco exclusivo. Combina inteligencia artificial predictiva con un sistema de tokens de acceso que garantiza experiencias VIP en los mejores restaurantes, cafés y locales de la ciudad.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+**Características principales:**
+
+- **Tokens de acceso canjeables** — reservas y beneficios en locales partners sin fricciones
+- **Digital Pass QR en tiempo real** — ingreso rápido y verificación instantánea por comercios
+- **IA predictiva** — recomendaciones geolocalizadas basadas en ocupación y tendencias en tiempo real
+- **Planes de membresía** — Discovery Pass (S/9.90), Vibe Member (S/19.90) y Gold Select (S/49.90)
+
+**Stack tecnológico:** Kotlin Multiplatform · Firebase · OpenAI SDK · PostgreSQL
+
+---
+
+## Ejecutar Localmente
+
+**Prerequisitos:** Node.js
+
+```bash
+npm install
+npm run dev
+```
+
+> Duplica `.env.example` como `.env.local` y configura las variables necesarias antes de correr el proyecto.
