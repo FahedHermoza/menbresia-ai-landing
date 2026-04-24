@@ -6,6 +6,8 @@
 
 Landing page oficial de **MembresiaAI**, construida con React, TypeScript y Vite.
 
+**Live:** [fahedhermoza.github.io/menbresia-ai-landing](https://fahedhermoza.github.io/menbresia-ai-landing/)
+
 > Este repositorio contiene únicamente el sitio de presentación del producto. El MVP de la aplicación móvil se encuentra en → [FahedHermoza/MVP-Menbresia-AI](https://github.com/FahedHermoza/MVP-Menbresia-AI)
 
 ---

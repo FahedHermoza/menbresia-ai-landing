@@ -4,19 +4,21 @@
  */
 
 import { motion } from "motion/react";
-import { 
-  Zap, 
-  MapPin, 
-  GlassWater, 
-  Ticket, 
-  ChevronRight, 
-  Star, 
-  Check, 
-  Cpu, 
+import {
+  Zap,
+  MapPin,
+  GlassWater,
+  Ticket,
+  ChevronRight,
+  Star,
+  Check,
+  Cpu,
   ShieldCheck,
   Coffee,
   Beer,
-  Music4
+  Music4,
+  Github,
+  Globe
 } from "lucide-react";
 
 const FeatureCard = ({ icon: Icon, title, description }: { icon: any, title: string, description: string }) => (
@@ -102,13 +104,31 @@ export default function App() {
             <a href="#solucion" className="text-xs font-bold uppercase tracking-widest text-slate-400 hover:text-white transition-colors">Solución</a>
             <a href="#features" className="text-xs font-bold uppercase tracking-widest text-slate-400 hover:text-white transition-colors">Beneficios</a>
             <a href="#pricing" className="text-xs font-bold uppercase tracking-widest text-slate-400 hover:text-white transition-colors">Precios</a>
-            <a 
-              href="https://drive.google.com/file/d/1Hc-ChEHS5tstJMyEkZ8cNfwTEsdn2cTO/view?usp=sharing" 
-              target="_blank" 
+            <a
+              href="https://drive.google.com/file/d/1Hc-ChEHS5tstJMyEkZ8cNfwTEsdn2cTO/view?usp=sharing"
+              target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-2 bg-white text-black font-black text-[10px] uppercase tracking-[0.2em] rounded-full hover:bg-slate-200 transition-colors inline-block text-center"
             >
               Acceso Beta
+            </a>
+            <a
+              href="https://github.com/FahedHermoza/MVP-Menbresia-AI"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-400 hover:text-white transition-colors"
+              aria-label="Repositorio GitHub"
+            >
+              <Github size={20} />
+            </a>
+            <a
+              href="https://fahedhermoza.github.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-400 hover:text-white transition-colors"
+              aria-label="Portafolio"
+            >
+              <Globe size={20} />
             </a>
           </div>
         </div>
@@ -389,10 +409,11 @@ export default function App() {
         <div className="flex items-center gap-8">
           <span className="text-[10px] text-slate-500 font-bold uppercase tracking-[0.4em] italic shrink-0">Tecnologías:</span>
           <div className="flex gap-10 opacity-30 hover:opacity-100 transition-opacity whitespace-nowrap overflow-hidden">
-            <span className="text-xs font-mono font-bold tracking-tighter uppercase">Kotlin Multiplatform</span>
-            <span className="text-xs font-mono font-bold tracking-tighter uppercase">OpenAI SDK</span>
+            <span className="text-xs font-mono font-bold tracking-tighter uppercase">Android Kotlin</span>
             <span className="text-xs font-mono font-bold tracking-tighter uppercase">Firebase Connect</span>
-            <span className="text-xs font-mono font-bold tracking-tighter uppercase">PostgreSQL</span>
+            <span className="text-xs font-mono font-bold tracking-tighter uppercase">Spec-Driven development</span>
+            <span className="text-xs font-mono font-bold tracking-tighter uppercase">AI-Powered Development</span>
+            <span className="text-xs font-mono font-bold tracking-tighter uppercase">Claude CLI - Antigravity - Pencil - AI Studio</span>
           </div>
         </div>
         <div className="hidden lg:block text-[10px] text-slate-600 font-black italic uppercase tracking-widest">
